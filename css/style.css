@@ -1,0 +1,93 @@
+table.search{
+  width: 100%;
+  border: thin solid black;
+}
+
+.search .input{
+  font-size: 1em;
+  border: none;
+  width: 88%;
+  padding: 16px;
+}
+
+.search .input:focus{
+  border: none;
+  background: black;
+  color: white;
+}
+
+.search .button{
+  text-align: center;
+  font-size: 1em;
+  border: none;
+  background: white;
+  color: black;
+  padding: 16px;
+}
+
+.search .button:hover{
+  font-size: 1em;
+  border: none;
+  background: black;
+  color: white;
+}
+
+.search .button:active{
+  font-size: 1em;
+  background: grey;
+  color: white;
+}
+
+.search .searchby{
+  border: none;
+  background: white;
+  padding: 16px;
+}
+
+div.search.results{
+  padding: 16px;
+  min-height: 60%;
+}
+
+table.results{
+  width: 100%;
+}
+
+.results .sum{
+  width: 100%;
+  text-align: left;
+}
+
+.results .toggle{
+  text-align: center;
+  border: none;
+  background: white;
+  color: black;
+  padding: 8px;
+}
+
+.results .toggle:hover{
+  border: none;
+  background: black;
+  color: white;
+}
+
+.results .toggle:active{
+  background: grey;
+  color: white;
+}
+
+.details{
+  border: thin solid black;
+  padding: 16px;
+}
+
+.cmdline{
+  background: silver;
+  padding: 8px;
+}
+
+.footer{
+  background: silver;
+  padding: 8px;
+}
