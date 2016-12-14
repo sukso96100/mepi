@@ -91,3 +91,9 @@ table.results{
   background: silver;
   padding: 8px;
 }
+
+.moved{
+  padding: 16px;
+  background-color: black;
+  color: white;
+}
